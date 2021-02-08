@@ -138,3 +138,19 @@ a,
 button {
   font-family: Arial, sans-serif;
 }
+.nav {
+  display: flex;
+}
+.nav .left-nav {
+  display: flex;
+  width: 43%;
+}
+.nav .right-nav {
+  width: 43%;
+}
+.nav .icons {
+  width: 10%;
+}
+.nav .icons .fa-ellipsis-h {
+  color: #5f6368;
+}
