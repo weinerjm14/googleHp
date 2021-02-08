@@ -134,3 +134,7 @@ table {
 html {
   font-size: 62.5%;
 }
+a,
+button {
+  font-family: Arial, sans-serif;
+}
