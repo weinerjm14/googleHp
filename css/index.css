@@ -138,19 +138,41 @@ a,
 button {
   font-family: Arial, sans-serif;
 }
+a {
+  font-size: 1.4rem;
+  margin-right: 3%;
+}
+i {
+  font-size: 1.6rem;
+}
 .nav {
   display: flex;
+  margin-top: 2%;
+}
+.nav a {
+  color: #343842;
 }
 .nav .left-nav {
-  display: flex;
+  margin-left: 3%;
   width: 43%;
 }
 .nav .right-nav {
+  display: flex;
+  justify-content: flex-end;
   width: 43%;
 }
 .nav .icons {
+  margin-right: 3%;
+  display: flex;
+  justify-content: flex-end;
   width: 10%;
 }
-.nav .icons .fa-ellipsis-h {
+.fa-bars {
+  margin-top: 2%;
+  margin-right: 15%;
   color: #5f6368;
+}
+.fa-user-circle {
+  font-size: 2.5rem;
+  margin-bottom: 20%;
 }
