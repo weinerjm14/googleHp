@@ -190,7 +190,43 @@ nav .icons {
   margin-bottom: 20%;
 }
 .content {
-  padding-bottom: 2.5rem;
+  height: 75vh;
+  padding-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content .search-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .search-form .search {
+  width: 55%;
+  height: 4rem;
+  border-radius: 18px;
+  border: 1px solid #dadce0;
+  margin: 5% 0;
+}
+.content .search-form .search-buttons {
+  display: flex;
+  justify-content: center;
+  width: 55%;
+}
+.content .search-form .search-buttons button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dadce0;
+}
+.content .search-form .search-buttons button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  padding: 2%;
+  margin: 0 2%;
+  color: #414b59;
 }
 footer {
   position: fixed;
